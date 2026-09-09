@@ -141,7 +141,7 @@ export function HomePage() {
             </div>
           </div>
 
-          <div className="landing-hero-in landing-hero-in-delay-4 relative mt-14 flex-1 md:mt-16">
+          <div className="landing-hero-in landing-hero-in-delay-4 relative mt-14 flex-1 pb-16 md:mt-16 md:pb-24">
             <div className="pointer-events-none absolute inset-x-0 -top-10 h-24 bg-gradient-to-b from-transparent to-background/40" />
             <div className="relative mx-auto aspect-[16/10] w-full max-w-5xl overflow-hidden ring-1 ring-foreground/10">
               <div className="absolute inset-0 z-10 bg-gradient-to-t from-background via-transparent to-transparent" />

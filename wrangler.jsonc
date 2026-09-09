@@ -7,8 +7,8 @@
   "workers_dev": false,
   "preview_urls": true,
   "routes": [
-    { "pattern": "orcaframe.com/*", "zone_name": "orcaframe.com" },
-    { "pattern": "www.orcaframe.com/*", "zone_name": "orcaframe.com" }
+    { "pattern": "orcaframe.com", "custom_domain": true },
+    { "pattern": "www.orcaframe.com", "custom_domain": true }
   ],
   "assets": {
     "directory": ".open-next/assets",
