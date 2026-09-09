@@ -4,6 +4,12 @@
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-09-09",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "workers_dev": false,
+  "preview_urls": true,
+  "routes": [
+    { "pattern": "orcaframe.com/*", "zone_name": "orcaframe.com" },
+    { "pattern": "www.orcaframe.com/*", "zone_name": "orcaframe.com" }
+  ],
   "assets": {
     "directory": ".open-next/assets",
     "binding": "ASSETS"
